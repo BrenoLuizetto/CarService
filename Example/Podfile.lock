@@ -1,5 +1,5 @@
 PODS:
-  - CarService (1.1.0)
+  - CarService (1.1.1)
 
 DEPENDENCIES:
   - CarService (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CarService: be6b2854528829289e6924190e6f602604a12080
+  CarService: 76a5fc4c8a0c06cf1afeac8eb8ee82448df6cc6a
 
 PODFILE CHECKSUM: bc04b2e362f3b8b1163844b9a1623f22630a5515
 

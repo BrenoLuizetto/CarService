@@ -7,69 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C2B50F44D6036740A5189DF29C1EB8B /* CarService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0AF5DE213B031707FAEE4067FF0FE0 /* CarService-dummy.m */; };
+		09D04A5E237F729C7FEA0E0FD8678533 /* CarServiceModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF6C4C2540B3BE78B3B2D43DC06B2E /* CarServiceModule.swift */; };
+		105E60EEDADA6A0493D62D89F5222FE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1C0EE39FCD3F3D8473DC0B15C24A72C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3C92DAEE1F38303E8F350A4486342D66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4553C5FA903ADB48E8F929EAFFF55E4E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DBA433758C0932903C191F255042D0 /* Service.swift */; };
+		4B2A1A12BD6F8133DBC755DFE7F9B1FA /* CarService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF32B1E4288D16651945F790C0E3F34 /* CarService-dummy.m */; };
 		4BE905EB20FF64716085124DAD5DBF95 /* Pods-CarService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 256540932F9359162EC9C06069CB228C /* Pods-CarService_Tests-dummy.m */; };
-		69774E8E6066A54DD2DCC0231B0D6256 /* CarService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBACBFB4545B5407030CB885FE47421 /* CarService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FFCC2A07F83E2246E6ED4AC4672A6D4 /* Pods-CarService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F78311E134041FD5C6F3CA83BFEF56D /* Pods-CarService_Example-dummy.m */; };
-		8610611D8A6D8C07B738521BF7D620DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B17190970BB13583657E77CECFF8247C /* Pods-CarService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F4063D56A6D354A40D6D87E7369331 /* Pods-CarService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E98C23A83371ABD7EBD1CFCE255FC0D0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33862DFED6163CCB3E158BC6346999F /* Service.swift */; };
+		C6E7C361C19BC35AE365D57B72CDA542 /* CarService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8417AA768F072DC53F9BD6331CE5798 /* CarService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F13916124BE8D8751B82B8C9CC3D3453 /* Pods-CarService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCD698E6CA1EC754164AEC9667C55BD /* Pods-CarService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		66DECCD44BD3716A4D42ADA5CDAB7A47 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0170B28D04AF7C809C0E5E237ECE33C7;
-			remoteInfo = CarService;
-		};
-		EB39E22C683C3BB9BC9F09E0C4B1BF26 /* PBXContainerItemProxy */ = {
+		5BC50EAC3BB6B1B2BD8D1F295B7733B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EE6EC3CFB8479CD4480729F8392C6219;
 			remoteInfo = "Pods-CarService_Example";
 		};
+		A065033E51D6070F5BEA29D19E9C0701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0170B28D04AF7C809C0E5E237ECE33C7;
+			remoteInfo = CarService;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001D874EE08FD107BF7D451B0DB9DB84 /* CarService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CarService-Info.plist"; sourceTree = "<group>"; };
 		0303D69A532CA436B1EDD914F0DDC985 /* Pods-CarService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		04445DF08A4B137D4D3F335BA2DFA4C0 /* Pods_CarService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CarService_Example.framework; path = "Pods-CarService_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0447DE55B087DBCF9E95B14B6A717C08 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0F78311E134041FD5C6F3CA83BFEF56D /* Pods-CarService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarService_Example-dummy.m"; sourceTree = "<group>"; };
-		111BE2F388A436AEF05D2AE3BAD6BCA1 /* CarService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CarService.debug.xcconfig; sourceTree = "<group>"; };
 		1AD20A540F277B8AD72F2BD81ACB651F /* Pods-CarService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarService_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1B2869AFAFC32466AD9EE286DCF50F14 /* CarService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CarService.release.xcconfig; sourceTree = "<group>"; };
-		2187B44F36F9ADEC72798F29E73D76D6 /* CarService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CarService.modulemap; sourceTree = "<group>"; };
 		22F4063D56A6D354A40D6D87E7369331 /* Pods-CarService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarService_Example-umbrella.h"; sourceTree = "<group>"; };
 		256540932F9359162EC9C06069CB228C /* Pods-CarService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarService_Tests-dummy.m"; sourceTree = "<group>"; };
-		261BFF533AB1E1BA07A93F7E3B9D320B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2B0AF5DE213B031707FAEE4067FF0FE0 /* CarService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CarService-dummy.m"; sourceTree = "<group>"; };
+		298FEA8211AF9182CB688A4AEFED538C /* CarService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CarService.debug.xcconfig; sourceTree = "<group>"; };
+		2B3064C6DD69FF108A33A8E88FCEFE64 /* CarService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CarService.modulemap; sourceTree = "<group>"; };
+		34BA7642CEB6E1576880332F3E5D3C33 /* CarService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarService-prefix.pch"; sourceTree = "<group>"; };
 		34F213832B0171A6BF91DF85C793AEA2 /* CarService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CarService.framework; path = CarService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E21A4540DAD86347042502D15C4A25 /* Pods-CarService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AEB81DBF52D91D5D93258C54DC2CF45 /* CarService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CarService.release.xcconfig; sourceTree = "<group>"; };
 		3CB1358617E439F1A5B8EB1C9D2B9079 /* Pods-CarService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3E76E69C1A0B30CD7CAB2A63C6E8F8AC /* Pods-CarService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CarService_Example.modulemap"; sourceTree = "<group>"; };
 		4E4F5A39E6EB91D2DF9672305AB7F164 /* Pods_CarService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CarService_Tests.framework; path = "Pods-CarService_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FDE58B1650BE3284C2CB72AD0491EF /* Pods-CarService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarService_Tests-Info.plist"; sourceTree = "<group>"; };
 		58EF88115879179C7D5C2352043D7311 /* Pods-CarService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5DEF6C4C2540B3BE78B3B2D43DC06B2E /* CarServiceModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CarServiceModule.swift; path = CarService/Classes/CarServiceModule.swift; sourceTree = "<group>"; };
+		68DBA433758C0932903C191F255042D0 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = CarService/Classes/Service.swift; sourceTree = "<group>"; };
 		6D004AF437041BBC0529543EBAC5A534 /* Pods-CarService_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarService_Example-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7382BFFF468834994FEAA18523D30ADC /* Pods-CarService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CarService_Tests.modulemap"; sourceTree = "<group>"; };
-		8B484691CC6755AD958C3EFCD7CDFD2B /* CarService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CarService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8CBACBFB4545B5407030CB885FE47421 /* CarService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarService-umbrella.h"; sourceTree = "<group>"; };
+		75AEE316E5798B241BE2089F0DBD6915 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8FCD698E6CA1EC754164AEC9667C55BD /* Pods-CarService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarService_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ABF7E4CB5DC033A5A6375556A1B51995 /* CarService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarService-prefix.pch"; sourceTree = "<group>"; };
+		A0DE129096D6E318922D6A5DCF0882CF /* CarService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CarService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC5F4D11E207C8F59757FE64564A47A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B8417AA768F072DC53F9BD6331CE5798 /* CarService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarService-umbrella.h"; sourceTree = "<group>"; };
 		C2C6768A75713A5777428EC94A7FECCE /* Pods-CarService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C36C6F4FB7A72FE0C1640EF353687FB2 /* Pods-CarService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CarService_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D4BB06BEBF7D09594B52D112B8734A57 /* Pods-CarService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarService_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E60934D54A19E7F2307BD54DE3A9EDE9 /* CarService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CarService-Info.plist"; sourceTree = "<group>"; };
+		DAF32B1E4288D16651945F790C0E3F34 /* CarService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CarService-dummy.m"; sourceTree = "<group>"; };
 		EB92BD3DA8324BE797B2694CAE2C117F /* Pods-CarService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarService_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F33862DFED6163CCB3E158BC6346999F /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = CarService/Classes/Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +83,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89B6D3D432EE03FD6288A918B8D99E7F /* Frameworks */ = {
+		66A64F4FB2DACCE0A0BA8179564C41CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8610611D8A6D8C07B738521BF7D620DA /* Foundation.framework in Frameworks */,
+				105E60EEDADA6A0493D62D89F5222FE6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,12 +102,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2BF69D5FB2426A837A661C06F3159ED6 /* Pod */ = {
+		2BA3958AE7CE45AF8A251EA9EC292993 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8B484691CC6755AD958C3EFCD7CDFD2B /* CarService.podspec */,
-				261BFF533AB1E1BA07A93F7E3B9D320B /* LICENSE */,
-				0447DE55B087DBCF9E95B14B6A717C08 /* README.md */,
+				A0DE129096D6E318922D6A5DCF0882CF /* CarService.podspec */,
+				75AEE316E5798B241BE2089F0DBD6915 /* LICENSE */,
+				AC5F4D11E207C8F59757FE64564A47A5 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -116,6 +118,21 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		75CBD3F17074E316F05204BCC977426F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B3064C6DD69FF108A33A8E88FCEFE64 /* CarService.modulemap */,
+				DAF32B1E4288D16651945F790C0E3F34 /* CarService-dummy.m */,
+				001D874EE08FD107BF7D451B0DB9DB84 /* CarService-Info.plist */,
+				34BA7642CEB6E1576880332F3E5D3C33 /* CarService-prefix.pch */,
+				B8417AA768F072DC53F9BD6331CE5798 /* CarService-umbrella.h */,
+				298FEA8211AF9182CB688A4AEFED538C /* CarService.debug.xcconfig */,
+				3AEB81DBF52D91D5D93258C54DC2CF45 /* CarService.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CarService";
 			sourceTree = "<group>";
 		};
 		A10CC22401EEA3486A4C9D686BCCDBCF /* Pods-CarService_Tests */ = {
@@ -132,6 +149,14 @@
 			);
 			name = "Pods-CarService_Tests";
 			path = "Target Support Files/Pods-CarService_Tests";
+			sourceTree = "<group>";
+		};
+		A24C93742E7ECB30484BE21CCD01C3B0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D710D009D25748B9930FEC7FECBC13DB /* CarService */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		ABD178BABFCAEFECCE8BBAA7F0F08A58 /* Pods-CarService_Example */ = {
@@ -151,17 +176,6 @@
 			path = "Target Support Files/Pods-CarService_Example";
 			sourceTree = "<group>";
 		};
-		ACA0819FC63A3040F962B5DD693421FF /* CarService */ = {
-			isa = PBXGroup;
-			children = (
-				F33862DFED6163CCB3E158BC6346999F /* Service.swift */,
-				2BF69D5FB2426A837A661C06F3159ED6 /* Pod */,
-				F4FF292DB32E3AD3B38E31122CB255E7 /* Support Files */,
-			);
-			name = CarService;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		C414863C15DAC33EE75A883AF6C66740 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,7 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EB7EBCD758CF153EFBC372D00576DC46 /* Development Pods */,
+				A24C93742E7ECB30484BE21CCD01C3B0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C414863C15DAC33EE75A883AF6C66740 /* Products */,
 				F833E467971CA53BBE47F70707CE55D4 /* Targets Support Files */,
@@ -191,27 +205,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EB7EBCD758CF153EFBC372D00576DC46 /* Development Pods */ = {
+		D710D009D25748B9930FEC7FECBC13DB /* CarService */ = {
 			isa = PBXGroup;
 			children = (
-				ACA0819FC63A3040F962B5DD693421FF /* CarService */,
+				5DEF6C4C2540B3BE78B3B2D43DC06B2E /* CarServiceModule.swift */,
+				68DBA433758C0932903C191F255042D0 /* Service.swift */,
+				2BA3958AE7CE45AF8A251EA9EC292993 /* Pod */,
+				75CBD3F17074E316F05204BCC977426F /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F4FF292DB32E3AD3B38E31122CB255E7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2187B44F36F9ADEC72798F29E73D76D6 /* CarService.modulemap */,
-				2B0AF5DE213B031707FAEE4067FF0FE0 /* CarService-dummy.m */,
-				E60934D54A19E7F2307BD54DE3A9EDE9 /* CarService-Info.plist */,
-				ABF7E4CB5DC033A5A6375556A1B51995 /* CarService-prefix.pch */,
-				8CBACBFB4545B5407030CB885FE47421 /* CarService-umbrella.h */,
-				111BE2F388A436AEF05D2AE3BAD6BCA1 /* CarService.debug.xcconfig */,
-				1B2869AFAFC32466AD9EE286DCF50F14 /* CarService.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CarService";
+			name = CarService;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F833E467971CA53BBE47F70707CE55D4 /* Targets Support Files */ = {
@@ -226,11 +229,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4BF121F2FD613FE37F831F22810382EF /* Headers */ = {
+		2DCAB6282F4B10921A1F279B6E1DAD94 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69774E8E6066A54DD2DCC0231B0D6256 /* CarService-umbrella.h in Headers */,
+				C6E7C361C19BC35AE365D57B72CDA542 /* CarService-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +258,12 @@
 /* Begin PBXNativeTarget section */
 		0170B28D04AF7C809C0E5E237ECE33C7 /* CarService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E396AC26987DAE8ED5C25487B0EDC4C4 /* Build configuration list for PBXNativeTarget "CarService" */;
+			buildConfigurationList = 9761D370173D073AF3CFEBDCF9A49F6A /* Build configuration list for PBXNativeTarget "CarService" */;
 			buildPhases = (
-				4BF121F2FD613FE37F831F22810382EF /* Headers */,
-				8FC1F0968C5D9101846BD26EF093608C /* Sources */,
-				89B6D3D432EE03FD6288A918B8D99E7F /* Frameworks */,
-				225F60DDB9A9467A927D6C3DFDFBA7E8 /* Resources */,
+				2DCAB6282F4B10921A1F279B6E1DAD94 /* Headers */,
+				2FC78308B904E6AB6FD76E69459EAFAB /* Sources */,
+				66A64F4FB2DACCE0A0BA8179564C41CB /* Frameworks */,
+				7C254554B3352A85368430C60F0EB013 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +286,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				228BEAC998734D750809FB865F7BAD4D /* PBXTargetDependency */,
+				55FE59AABA9C9061A1B7F252BF0BF091 /* PBXTargetDependency */,
 			);
 			name = "Pods-CarService_Tests";
 			productName = "Pods-CarService_Tests";
@@ -302,7 +305,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C803A498D75C2AF5033BA5E0C522F0C4 /* PBXTargetDependency */,
+				9B559598D0B8CC987F02329084AC87A9 /* PBXTargetDependency */,
 			);
 			name = "Pods-CarService_Example";
 			productName = "Pods-CarService_Example";
@@ -339,14 +342,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		225F60DDB9A9467A927D6C3DFDFBA7E8 /* Resources */ = {
+		51C9D803F51ECD701D97C243DA8A1B48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51C9D803F51ECD701D97C243DA8A1B48 /* Resources */ = {
+		7C254554B3352A85368430C60F0EB013 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,12 +374,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FC1F0968C5D9101846BD26EF093608C /* Sources */ = {
+		2FC78308B904E6AB6FD76E69459EAFAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C2B50F44D6036740A5189DF29C1EB8B /* CarService-dummy.m in Sources */,
-				E98C23A83371ABD7EBD1CFCE255FC0D0 /* Service.swift in Sources */,
+				4B2A1A12BD6F8133DBC755DFE7F9B1FA /* CarService-dummy.m in Sources */,
+				09D04A5E237F729C7FEA0E0FD8678533 /* CarServiceModule.swift in Sources */,
+				4553C5FA903ADB48E8F929EAFFF55E4E /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,52 +395,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		228BEAC998734D750809FB865F7BAD4D /* PBXTargetDependency */ = {
+		55FE59AABA9C9061A1B7F252BF0BF091 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CarService_Example";
 			target = EE6EC3CFB8479CD4480729F8392C6219 /* Pods-CarService_Example */;
-			targetProxy = EB39E22C683C3BB9BC9F09E0C4B1BF26 /* PBXContainerItemProxy */;
+			targetProxy = 5BC50EAC3BB6B1B2BD8D1F295B7733B3 /* PBXContainerItemProxy */;
 		};
-		C803A498D75C2AF5033BA5E0C522F0C4 /* PBXTargetDependency */ = {
+		9B559598D0B8CC987F02329084AC87A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CarService;
 			target = 0170B28D04AF7C809C0E5E237ECE33C7 /* CarService */;
-			targetProxy = 66DECCD44BD3716A4D42ADA5CDAB7A47 /* PBXContainerItemProxy */;
+			targetProxy = A065033E51D6070F5BEA29D19E9C0701 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06406F4651430F5A6898490D6AE2A611 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B2869AFAFC32466AD9EE286DCF50F14 /* CarService.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CarService/CarService-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CarService/CarService-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CarService/CarService.modulemap";
-				PRODUCT_MODULE_NAME = CarService;
-				PRODUCT_NAME = CarService;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -500,6 +473,36 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		61A514A8F33B147CBA1D84BBBA5DAA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298FEA8211AF9182CB688A4AEFED538C /* CarService.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CarService/CarService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CarService/CarService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CarService/CarService.modulemap";
+				PRODUCT_MODULE_NAME = CarService;
+				PRODUCT_NAME = CarService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -567,6 +570,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		9E32BF38BD3B5E32DDF1E2EEB859963E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AEB81DBF52D91D5D93258C54DC2CF45 /* CarService.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CarService/CarService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CarService/CarService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CarService/CarService.modulemap";
+				PRODUCT_MODULE_NAME = CarService;
+				PRODUCT_NAME = CarService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		AF2542782E136CEC0DE28DD0A8060839 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -695,36 +729,6 @@
 			};
 			name = Release;
 		};
-		CEB235F6DF2B3E4AFEAB8BD950390509 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 111BE2F388A436AEF05D2AE3BAD6BCA1 /* CarService.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CarService/CarService-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CarService/CarService-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CarService/CarService.modulemap";
-				PRODUCT_MODULE_NAME = CarService;
-				PRODUCT_NAME = CarService;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -746,20 +750,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9761D370173D073AF3CFEBDCF9A49F6A /* Build configuration list for PBXNativeTarget "CarService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A514A8F33B147CBA1D84BBBA5DAA91 /* Debug */,
+				9E32BF38BD3B5E32DDF1E2EEB859963E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D62F8C4A8D8AEB2F88ACBC6E22684CE6 /* Build configuration list for PBXNativeTarget "Pods-CarService_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF2542782E136CEC0DE28DD0A8060839 /* Debug */,
 				B42A39385E6739163812DD195D184425 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E396AC26987DAE8ED5C25487B0EDC4C4 /* Build configuration list for PBXNativeTarget "CarService" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEB235F6DF2B3E4AFEAB8BD950390509 /* Debug */,
-				06406F4651430F5A6898490D6AE2A611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

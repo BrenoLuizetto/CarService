@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 public enum MyError: String, Error {
     case carNotFounded = "nenhum carro foi encontrado"
 }
