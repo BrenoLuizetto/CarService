@@ -13,8 +13,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        CarServiceModule().getMainViewController(nav: UINavigationController())
         ServiceCars().getCars { (result) in
-//            CarServiceModule().getMainViewController(nav: UINavigationController)
+
         }
     }
 

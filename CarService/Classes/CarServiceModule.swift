@@ -20,18 +20,18 @@ public class CarServiceModule {
         client.getCars(completionHandler: completionHandler)
     }
     
-    public func getMainViewController() -> UIViewController? {
-        let storyboard = UIStoryboard()
-        let vc = storyboard.instantiateInitialViewController()
-        return vc
-    }
+//    public func getMainViewController() -> UIViewController? {
+//        let storyboard = UIStoryboard()
+//        let vc = storyboard.instantiateInitialViewController()
+//        return vc
+//    }
     
     //exemplo chamando uma navViewController
     
-//    public func getMainViewController(nav: UINavigationController)  {
-//        let storyboard = UIStoryboard()
-//       if let vc = storyboard.instantiateInitialViewController(){
-//        nav.pushViewController(vc, animated: true)
-//        }
-//    }
+    public func getMainViewController(nav: UINavigationController)  {
+        let storyboard = UIStoryboard()
+       if let vc = storyboard.instantiateInitialViewController(){
+        nav.pushViewController(vc, animated: true)
+        }
+    }
 }
