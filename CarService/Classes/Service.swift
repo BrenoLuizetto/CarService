@@ -11,8 +11,8 @@ public enum MyError: String, Error {
 }
 
 public struct CarModel {
-    var model: String
-    var color: String
+    public var model: String
+    public var color: String
 }
  public protocol ServiceCarsProtocol{
     func getCars(completionHandler: (Result<[CarModel], MyError>) -> Void)
