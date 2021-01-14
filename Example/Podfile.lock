@@ -1,0 +1,16 @@
+PODS:
+  - CarService (1.1.0)
+
+DEPENDENCIES:
+  - CarService (from `../`)
+
+EXTERNAL SOURCES:
+  CarService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CarService: be6b2854528829289e6924190e6f602604a12080
+
+PODFILE CHECKSUM: bc04b2e362f3b8b1163844b9a1623f22630a5515
+
+COCOAPODS: 1.10.1

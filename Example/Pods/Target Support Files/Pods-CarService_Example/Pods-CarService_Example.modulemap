@@ -1,0 +1,6 @@
+framework module Pods_CarService_Example {
+  umbrella header "Pods-CarService_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

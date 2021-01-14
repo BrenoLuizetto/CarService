@@ -1,0 +1,6 @@
+framework module CarService {
+  umbrella header "CarService-umbrella.h"
+
+  export *
+  module * { export * }
+}

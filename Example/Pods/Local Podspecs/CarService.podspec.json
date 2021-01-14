@@ -1,0 +1,22 @@
+{
+  "name": "CarService",
+  "version": "1.1.0",
+  "summary": "A short description of CarService.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BrenoLuizetto/CarService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BrenoLuizetto": "cintrabreno22@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/BrenoLuizetto/CarService.git",
+    "tag": "1.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CarService/Classes/**/*"
+}
